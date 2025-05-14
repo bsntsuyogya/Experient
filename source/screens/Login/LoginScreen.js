@@ -45,7 +45,7 @@ const LoginScreen=()=> {
         value={userName}
       />
       <TextInput
-        passwordRules={()=>{}}
+        secureTextEntry={true}
         label='Password'
         mode='outlined'
         onChangeText={setPassword}
